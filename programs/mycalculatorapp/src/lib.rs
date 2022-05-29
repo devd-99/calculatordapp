@@ -23,7 +23,7 @@ pub struct Create<'info> {
     pub calculator: Account<'info, Calculator>,
     #[account(mut)]
     pub user: Signer<'info>,
-    pub systems_program: Program<'info, System>
+    pub system_program: Program<'info, System>
 }
 
 #[account]
